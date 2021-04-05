@@ -1,5 +1,5 @@
 module "network" {
-  source  = "app.terraform.io/TimS-training/network/google//modules/vpc"
+  source  = "app.terraform.io/TimS-training/network/google"
   version = "2.5.0"
 
   project_id   = var.project
