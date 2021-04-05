@@ -4,7 +4,7 @@ module "network_vpc" {
 
 }
 
-    project_id   = "var.project"
+    project_id   = var.project
     network_name = "gaurav-network"
     routing_mode = "GLOBAL"
 
